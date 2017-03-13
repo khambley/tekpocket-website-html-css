@@ -1,0 +1,38 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(../img/wood-texture3.jpg);
+	/*background-repeat: repeat-y;*/
+}
+.content {
+	background: #fff;
+	min-height: 800px;
+}
+.no-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.navbar-nav > li > a {
+	color: #000;
+	font-weight: bold;
+}
+.navbar-fixed-top {
+	top: 6.5%;
+}
+.logo {
+	min-height: 100px;
+}
+.logo a img {
+	position: fixed;
+	top: 3px !important;
+	z-index: 1100 !important;
+}
+.navbar-nav {
+	float: right;
+}
+.navbar-inverse {
+	background-color: #e11f26;
+	border-color: #b90c13;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
