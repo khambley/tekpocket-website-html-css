@@ -1,7 +1,8 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-image: url(../img/wood-texture3.jpg);
+	/*background-image: url(../img/wood-texture3.jpg);*/
 	/*background-repeat: repeat-y;*/
+	background-color: #ccc;
 }
 .content {
 	background: #fff;
