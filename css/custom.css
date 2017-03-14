@@ -1,8 +1,11 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	/*background-image: url(../img/wood-texture3.jpg);*/
-	/*background-repeat: repeat-y;*/
+	font-size: 1.5rem;
+	line-height: 1.7;
 	background-color: #ccc;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: bold;
 }
 .content {
 	background: #fff;
@@ -36,4 +39,21 @@ body {
 }
 .navbar-inverse .navbar-nav > li > a {
 	color: #fff;
+}
+.colorbar {
+	background-color: #000;
+	height: 50px;
+}
+.footer {
+	background-color: #000;
+	color: #fff;
+}
+.footer-nav {
+	text-decoration: none;
+	list-style: none;
+	margin-top: 10px;
+	padding: 0px;
+}
+.content-row {
+	min-height: 350px;
 }
