@@ -1,5 +1,9 @@
+@font-face {
+	font-family: "BrandonGrotW01-Regular";
+	src: url("/fonts/BrandonGrot1.woff");
+}
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'BrandonGrotW01-Regular', sans-serif;
 	font-size: 1.5rem;
 	line-height: 1.7;
 	background-color: #ccc;
@@ -47,6 +51,7 @@ h1, h2, h3, h4, h5 {
 .footer {
 	background-color: #000;
 	color: #fff;
+	padding: 20px;
 }
 .footer-nav {
 	text-decoration: none;
@@ -54,6 +59,30 @@ h1, h2, h3, h4, h5 {
 	margin-top: 10px;
 	padding: 0px;
 }
+.footer-nav > li > a {
+	color: #ccc;
+}
 .content-row {
 	min-height: 350px;
+}
+.social {
+	padding-left: 100px;
+}
+.no-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/*  Product Single Page Slider */
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
 }
